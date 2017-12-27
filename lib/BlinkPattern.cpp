@@ -2,7 +2,7 @@
 // Created by a on 24.12.2017..
 //
 
-// Please read BlinkPattern.h for information about the liscence and authors
+// Please read BlinkPattern.h for information about the license and authors
 
 //#include "BlinkPattern.h"
 #include "BlinkPattern.h"
@@ -17,12 +17,6 @@ using namespace std;
 #ifndef invertOutput
 #define invertOutput(val1,val2)((val2 == 1)?(!val1):(val1))
 #endif
-
-/* REMOVE
-#define DEBOUNCED_STATE 0
-#define UNSTABLE_STATE  1
-#define STATE_CHANGED   3
-*/
 
 
 BlinkPattern::BlinkPattern()
